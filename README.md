@@ -16,3 +16,7 @@ Various Steps undergone in the whole project are as follows- <br>
 We know that the input data contains profile from diverse background like (marketing, software developer, Investors, Entrepreneur, and many more) and thus clusters of four won't help our purpose. Thus decided to go with **Topic Modelling**<br>
 
 However with the help of KMeans clustering we were able to filter out all the foreign languages (i.e input data whose languages are not english) very convincingly. Thus excluding these foreign languages we proceed to Topic Modelling. <br> <br> 
+
+2. **Topic Modelling with LDA MALLET**: This is done in two steps- <br>
+i. Creation of dictionary for LDA Mallet Model (for code check gensim_LDA_corpus_creation.ipynb file)<br>
+ii. Clustering of Data with LDA Mallet Model (for code check gensim_LDA_Mallet.ipynb file)
