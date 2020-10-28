@@ -19,9 +19,9 @@ However with the help of KMeans clustering we were able to filter out all the fo
 
 
 2. **Topic Modelling with LDA MALLET**: This is done in two steps- <br>
-i. Creation of dictionary for LDA Mallet Model (for code check gensim_LDA_corpus_creation.ipynb file): Basic data cleaning like removing stopwords and punctuation have been performe. In addition low frequency words are removed from the dictionary.<br>
+i. Creation of dictionary for LDA Mallet Model (for code check _**gensim_LDA_corpus_creation.ipynb file**_): Basic data cleaning like removing stopwords and punctuation have been performe. In addition low frequency words are removed from the dictionary.<br>
 
-ii. Clustering of Data with LDA Mallet Model (for code check gensim_LDA_Mallet.ipynb file): a) For finding optimum nuber of topics **Cherence Score** have been calculated with varying topic numbers and thus from analysis the optimum topic number chosen is 18. <br>
+ii. Clustering of Data with LDA Mallet Model (for code check **gensim_LDA_Mallet.ipynb file**): a) For finding optimum nuber of topics **Cherence Score** have been calculated with varying topic numbers and thus from analysis the optimum topic number chosen is 18. <br>
 b) We have got quite a good result which can be seen on **pyLDAvis Visualization**. From the Visualization chart it is observed that topics related to software, data, marketing, startup(entrepreneur), business, investment, etc have been segregated beautifully. <br>
 
 Our next steps is to use the result of topic modelling and build a statistical model out of it. This data from Topic Modelling will be used as labelled data for statistical modelling. <br><br>
