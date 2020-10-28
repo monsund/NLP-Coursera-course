@@ -1,1 +1,1 @@
-# NLP-Coursera-course
+# Linkedin Profile Classification using the About Section
