@@ -27,6 +27,13 @@ b) We have got quite a good result which can be seen on **pyLDAvis Visualization
 Our next steps is to use the result of topic modelling and build a statistical model out of it. This data from Topic Modelling will be used as labelled data for statistical modelling. <br><br>
 
 
-3. **Data Preparation for Statistical Classification Model** (for code check **data_prep_for_statistical_classification.ipynb**):
+3. **Data Preparation for Statistical Classification Model** (for code check **data_prep_for_statistical_classification.ipynb**): Out of 18 topics which resulted from Topic Modelling, **Nine major topics** has been chosen for statistical classification. From each of these nine topics we have taken only those data with high probability of being in that particular topic. For more details please check **.ipynb file**. <br>
+
+The topic number output from **Topic Modelling** are used as labels for each category<br><br>
+
+
+4. **Classification with RandomForest and TFIDF vectorizer** (for code check **random_forest_classification.ipynb** ):  The classification results shows 86% accuracy, 86% recall and 87% precesion.<br>
+
+But for the final output, instead of showing one discreet category it is represented as a mixed of all the topics with respect to their probability. This is because for example a profile with software background may be also be good at data science, product managment, etc. Thus the results is shown in probability of falling into these categories.
 
 
