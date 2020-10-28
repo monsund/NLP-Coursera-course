@@ -34,6 +34,6 @@ The topic number output from **Topic Modelling** are used as labels for each cat
 
 4. **Classification with RandomForest and TFIDF vectorizer** (for code check **random_forest_classification.ipynb** ):  The classification results shows 86% accuracy, 86% recall and 87% precesion.<br>
 
-But for the final output, instead of showing one discreet category it is represented as a mixed of all the topics with respect to their probability. This is because for example a profile with software background may be also be good at data science, product managment, etc. Thus the results is shown in probability of falling into these categories.
+But for the final output, instead of showing one discreet category it is represented as a mixed of all the topics with respect to their probability. This is because for example a profile with software background may be also be good at data science, product managment, etc. Thus the results are shown in probability of falling into these categories.
 
 
