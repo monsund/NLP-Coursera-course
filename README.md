@@ -1,4 +1,4 @@
-# Linkedin Profile Classification using the About Section
+# Linkedin Profile Classification using KMEANS, LDA, TFIDF
 Notes: Steps to open .ipynb file if GitHUB shows loading error- <br>
 i. Copy link of .ipynb file (for eg- Hover on "TFIDF_kmeans_cluster.ipynb"; right click and copy link address) <br>
 ii. Go to https://nbviewer.jupyter.org  <br>
