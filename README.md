@@ -15,5 +15,4 @@ Various Steps undergone in the whole project are as follows- <br>
 
 We know that the input data contains profile from diverse background like (marketing, software developer, Investors, Entrepreneur, and many more) and thus clusters of four won't help our purpose. Thus decided to go with **Topic Modelling**<br>
 
-However with the help of KMeans clustering we were able to filter out all the foreign languages (i.e input data whose languages are not english) very convincingly. Thus excluding these foreign languages we proceed to Topic Modelling.<br>  
-< br> 
+However with the help of KMeans clustering we were able to filter out all the foreign languages (i.e input data whose languages are not english) very convincingly. Thus excluding these foreign languages we proceed to Topic Modelling. <br> <br> 
